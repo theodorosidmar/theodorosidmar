@@ -160,6 +160,9 @@ body {
     padding-left: 24px;
     padding-right: 24px;
   }
+  .main .base h1 {
+    margin-bottom: 0;
+  }
 
   .base .text {
     max-height: initial !important;
