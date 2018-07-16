@@ -108,6 +108,10 @@ body {
   overflow: auto;
 }
 
+.main .base .text a {
+  color: #fff;
+}
+
 .footer {
   position: fixed;
   bottom: 0;
@@ -159,6 +163,7 @@ body {
 
   .base .text {
     max-height: initial !important;
+    margin-bottom: 75px;
   }
 
   .navbar {
