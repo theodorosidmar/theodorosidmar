@@ -141,8 +141,8 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
-  body {
-    background-image: none;
+ html, body {
+    background-image: none !important;
     background-color: #002b36;
   }
 
@@ -160,13 +160,14 @@ body {
     padding-left: 24px;
     padding-right: 24px;
   }
-  .main .base h1 {
-    margin-bottom: 0;
-  }
 
   .base .text {
     max-height: initial !important;
     margin-bottom: 75px;
+  }
+
+  .main .base h1 {
+    margin-bottom: 0;
   }
 
   .navbar {
@@ -179,6 +180,21 @@ body {
   }
   .navbar ul li a:hover {
     transform: none;
+  }
+
+  .footer {
+    padding: 0;
+    padding-bottom: 22px;
+    padding-top: 22px;
+  }
+
+  .footer .contacts a {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .footer .contacts a i {
+    font-size: 30px;
   }
 }
 
